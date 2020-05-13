@@ -1,6 +1,5 @@
 //1- install inquirer, chalk, axios
 //2-gitignore file
-//3- build index.html
 //4 - build index.js
   // prompt user to select : leaderboard or new game
     //leaderboard will link to different file -TBD

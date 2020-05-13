@@ -12,22 +12,25 @@ const categoryChoices =
     })
     .catch(err => console.log(err))
 
+// category IDs are in an arry of 9 - 32
+let category =
+
 //prompt user to select category of trivia using inquirer'list
-prompt([
-  {
-    type: 'list',
-    name: 'category',
-    message: 'Please select a category:',
-    choices: `${categoryChoices}`
-  }
-])
-  .then (category =>{
-    console.log(category)
-    for (const name in category){
-      console.log(name[category])
-    }
-  })
-  .catch(err => console.log(err))
+// prompt([
+//   {
+//     type: 'list',
+//     name: 'category',
+//     message: 'Please select a category:',
+//     choices: `${categoryChoices}`
+//   }
+// ])
+//   .then (category =>{
+//     console.log(category)
+//     for (const name in category){
+//       console.log(name[category])
+//     }
+//   })
+//   .catch(err => console.log(err))
 
 //console.log user's choice
 //prompt them with 10 questions from that category
