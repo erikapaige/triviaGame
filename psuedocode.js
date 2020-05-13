@@ -1,6 +1,7 @@
 //1- install inquirer, chalk, axios
-//2- build index.html
-//3 - build index.js
+//2-gitignore file
+//3- build index.html
+//4 - build index.js
   // prompt user to select : leaderboard or new game
 
   //LEADERBOARD
@@ -14,4 +15,3 @@
     //2 - after selected category prompt with 10 questions
       //const var with 10 questions form each category
       // set var equal to prompt
-      
