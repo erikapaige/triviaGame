@@ -3,6 +3,8 @@
 //3- build index.html
 //4 - build index.js
   // prompt user to select : leaderboard or new game
+    //leaderboard will link to different file -TBD
+    //new game will link to api, module.exports
 
   //LEADERBOARD
     //1 
